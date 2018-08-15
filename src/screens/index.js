@@ -1,1 +1,1 @@
-export { default as WeatherScreen } from './weather';
+export { default as FeedScreen } from './feed';

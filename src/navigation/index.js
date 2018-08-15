@@ -1,11 +1,9 @@
 import { createSwitchNavigator, createBottomTabNavigator, TabNavigator } from 'react-navigation';
-import { WeatherScreen } from '../screens';
+import { FeedScreen } from '../screens';
 
 export default TabNavigator(
     {
-        Weather: WeatherScreen,
-        Weather1: WeatherScreen,
-        Weather2: WeatherScreen
+        Feed: FeedScreen,
     },
     {
         tabBarPosition: 'bottom',
